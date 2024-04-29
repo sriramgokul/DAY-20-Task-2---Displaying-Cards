@@ -1,0 +1,26 @@
+body{
+    background-color: black !important;
+    color: white !important;
+    font-family: "EB Garamond", serif !important;
+}
+.head {
+    width: 100%;
+    text-align: center;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-around;
+}
+.card-img-top {
+    width: 100px;
+    height: 150px;
+    border: 2px solid black;
+  }
+  .card:hover {
+    cursor: pointer;
+    background-color: red;
+  }
